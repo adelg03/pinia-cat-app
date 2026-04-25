@@ -1,5 +1,15 @@
+<script setup>
+import Status from '@/components/CatStatus.vue'
+import Buttons from '@/components/CatButtons.vue'
+import Inventory from '@/components/CatInventory.vue'
+</script>
+
 <template>
-  <main class="flex flex-1 items-center justify-center">
-    <h1 class="text-6xl font-thin text-slate-800">Hello There ✋</h1>
+  <main
+    class="flex min-h-screen flex-1 items-center justify-center bg-linear-to-t from-[#94BBE9] to-[#EEAECA]"
+  >
+    <Status />
+    <Inventory />
+    <Buttons />
   </main>
 </template>
